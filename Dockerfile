@@ -1,6 +1,6 @@
 # 베이스 이미지로 OpenJDK 17 버전의 JRE 이미지 사용
 #FROM openjdk:26-ea-21-jdk-slim
-FROM eclipse-temurin:21-jre
+FROM skala-registry.skala-us.com/class-4/sk136-webserver:base-java21
 
 # 작업 디렉토리 설정
 WORKDIR /app
